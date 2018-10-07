@@ -18,3 +18,14 @@ export class AppComponent {
   }
 }
 
+export class SuggestionsComponent {
+  videos = [
+    {name:'video one', liked: true},
+    {name: 'video two', liked: false},
+  ]
+
+  isShown: boolean = true
+
+  constructor() { }
+}
+
